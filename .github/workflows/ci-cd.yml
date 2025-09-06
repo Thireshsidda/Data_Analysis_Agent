@@ -1,0 +1,29 @@
+name: Deploy to Hugging Face Spaces
+
+on:
+  push:
+    branches:
+      - main  # Trigger on pushes to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Hugging Face Login
+        env:
+          HF_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
+        run: |
+          echo "HF_TOKEN=$HF_TOKEN" >> $GITHUB_ENV
+
+      - name: Deploy to Hugging Face Space
+        env:
+          HF_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
+        run: |
+          pip install -r requirements.txt
+          pip install huggingface_hub
+          huggingface-cli login --token $HF_TOKEN
+          huggingface-cli repo create --type space --private ${{ github.repository }}
+          huggingface-cli space push ${{ github.repository }}
