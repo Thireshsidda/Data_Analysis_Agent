@@ -49,7 +49,7 @@ The implementation leverages the powerful Llama-3.1-Nemotron-Ultra-253B-v1 and L
 
 1.  Clone this repository:
     ```bash
-    git clone [https://github.com/your-username/TS-Data-Analysis-Agent.git](https://github.com/your-username/TS-Data-Analysis-Agent.git)
+    git clone https://github.com/your-username/TS-Data-Analysis-Agent.git
     cd TS-Data-Analysis-Agent
     ```
 2.  Install dependencies:
@@ -74,7 +74,7 @@ The implementation leverages the powerful Llama-3.1-Nemotron-Ultra-253B-v1 and L
     ```
 2.  Download example dataset (optional):
     ```bash
-    wget [https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv](https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv)
+    wget https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv
     ```
 3.  Use the application:
     -   Select a model from the dropdown menu.
