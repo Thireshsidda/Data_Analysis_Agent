@@ -137,6 +137,15 @@ This project is built upon the foundational work and public examples provided by
 
 ***
 
+## Author
+
+👤 **Thiresh Sidda**
+
+* LinkedIn: [@ThireshSidda](https://www.linkedin.com/in/thiresh-sidda)
+* GitHub: [@ThireshSidda](https://github.com/Thireshsidda)
+
+***
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
