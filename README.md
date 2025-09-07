@@ -1,9 +1,6 @@
 # TS Data Analysis Agent
 
 An interactive, agentic data analysis application that leverages advanced LLM reasoning to help users explore, visualize, and understand their data using **NVIDIA Llama-3.1-Nemotron-Ultra-253B-v1** and **NVIDIA Llama-3.3-Nemotron-Super-49B-v1.5**.
-
-<img src="https://ibb.co/Ngsy4hP" width="100" height="100" align="right">
-
 ***
 
 ## Overview
@@ -49,8 +46,8 @@ The implementation leverages the powerful Llama-3.1-Nemotron-Ultra-253B-v1 and L
 
 1.  Clone this repository:
     ```bash
-    git clone https://github.com/your-username/TS-Data-Analysis-Agent.git
-    cd TS-Data-Analysis-Agent
+    git clone https://github.com/Thireshsidda/Data_Analysis_Agent.git
+    cd Data-Analysis-Agent
     ```
 2.  Install dependencies:
     ```bash
