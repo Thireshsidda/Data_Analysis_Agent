@@ -98,7 +98,7 @@ This project is set up to automatically deploy to Hugging Face Spaces using GitH
     -   Paste your Hugging Face token into the `Secret` field and click **Add secret**.
 
 3.  **Push the workflow file**:
-    -   Ensure you have the `.github/workflows/ci-cd.yml` file in your repository.
+    -   Ensure you have the `.github/workflows/ci-cd.yml` file in your repository. [Source](https://huggingface.co/docs/hub/spaces-github-actions)
     -   The workflow will automatically run on every `git push` to the `main` branch.
 
 ***
