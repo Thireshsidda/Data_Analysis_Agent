@@ -26,7 +26,7 @@ The implementation leverages the powerful Llama-3.1-Nemotron-Ultra-253B-v1 and L
 -   **Transparent Reasoning**: Get clear, LLM-generated explanations for every result.
 -   **Powered by NVIDIA Llama-3.1-Nemotron-Ultra-253B-v1** and **NVIDIA Llama-3.3-Nemotron-Super-49B-v1.5**: State-of-the-art reasoning and interpretability.
 
-![Workflow](./assets/workflow.png)
+![Workflow](./Assets/data_analysis_agent_workflow.png)
 
 ***
 
