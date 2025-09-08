@@ -1,5 +1,7 @@
 # TS Data Analysis Agent
 
+![DataAnalysisAgent](https://iconscout.com/lottie-animation/mails-are-sent-from-laptops-11333224_9144766)
+
 An interactive, agentic data analysis application that leverages advanced LLM reasoning to help users explore, visualize, and understand their data using **NVIDIA Llama-3.1-Nemotron-Ultra-253B-v1** and **NVIDIA Llama-3.3-Nemotron-Super-49B-v1.5**.
 ***
 
