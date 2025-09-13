@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 *.so
 
+# PNG file folders
+Assets/
+
 # Virtual environments
 .env
 .venv
