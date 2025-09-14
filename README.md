@@ -105,7 +105,7 @@ This project is set up to automatically deploy to Hugging Face Spaces using GitH
 
 ## Example
 
-![App Demo](./assets/data_analysis_agent_demo.png)
+![App Demo](./Assets/data_analysis_agent_demo.png)
 
 ***
 
