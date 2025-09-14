@@ -9,7 +9,7 @@ from typing import List, Any, Optional
 # === Configuration ===
 # Global configuration
 API_BASE_URL = "https://integrate.api.nvidia.com/v1"
-API_KEY = "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" #os.environ.get("NVIDIA_API_KEY")
+API_KEY = os.environ.get("NVIDIA_API_KEY")
 
 # Plot configuration
 DEFAULT_FIGSIZE = (6, 4)
